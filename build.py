@@ -12,10 +12,10 @@ STATIC=[
 
 INCLUDES=" ".join([f"-I{i}" for i in [
     "/usr/include/SDL2",
-    "/usr/include/miniaudio",
     "lib/liteinput/src",
     "lib/tinyfiledialogs",
     "lib/microui/src",
+    "lib/miniaudio",
     "static"
 ]])
 
